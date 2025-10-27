@@ -5,6 +5,9 @@
 //applicare sconto 20% per minorenni e 40% per gli over 65
 //Ottenere l'output con il prezzo finale
 
+//Calcolo la tariffa base moltiplicando il numero dei km per 0.21 euro
+//Poi applico gli sconti per le categorie di persone e calcolo il prezzo finale in base ai vari scenari sottraendo dal prezzo lo sconto
+
 const eta = prompt("Inserisci la tua età: ");
 const numKm = prompt("Inserisci Il numero di km da percorrere: ");
 let prezzoFinale;
